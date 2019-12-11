@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  web:
+    image: yyi06011/catdog_1
+    ports:
+      - "5001:5001"
+
+  tensor:
+    image: yyi06011/catdog_2
+    ports:
+      - "5002:5002"
+
+  record:
+    image: yyi06011/catdog_3
+    volumes:
+      - ./docker/records/:/records/
+    ports:
+      - "5003:5003"
+
+  result:
+    image: yyi06011/catdog_0
+    volumes:
+      - ./docker/records/:/records/
+    ports:
+      - "9000:9000"
+
+
