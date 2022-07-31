@@ -1,6 +1,6 @@
 # cat_or_dog
 #### 2019 Autumn / Datacenter Programming / Term Project
-###### (제 능력은 이정도까지인 것 같습니다... 그래도 assigment3에서 못했던걸 구현해냈으니 별거아니지만 그래도 뿌듯합니다. )
+###### 
 
 ## Docker-compose.yml
 #### docker-compose.yml파일을 다운받아서 다음 명령어를 실행시키면 실행가능하다. 
